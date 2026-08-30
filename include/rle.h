@@ -4,16 +4,16 @@
 #include "common.h"
 
 /*
- * RLE compression and decompression
- *
- * Full implementation will be added in Phase 2.
+ * Compress a file using Run-Length Encoding.
  */
-
 int compress_rle(
     const char *input_file,
     const char *output_file
 );
 
+/*
+ * Decompress an RLE file.
+ */
 int decompress_rle(
     const char *input_file,
     const char *output_file
